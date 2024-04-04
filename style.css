@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+}
+h2{
+    background-color: Black;
+    color:white;
+    height: 5rem;
+    line-height:5rem;
+}
+.box{
+    background-color:aquamarine;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+#rock{
+    background-image: url(rock.png);
+
+}
+#paper{
+    background-image: url(paper.png);
+
+}
+#scissor{
+    background-image: url(scissors.png);
+
+}
+.scoreboard{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+    margin-top: 2rem;
+    font-size:50px;
+    
+}
+#answer{
+    height:80px;
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top:5rem;
+
+}
+.box:hover{
+    border:10px solid black;
+}
